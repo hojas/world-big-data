@@ -1,5 +1,11 @@
+'use client'
+
+import ChinesePopulation from './components/ChinesePopulation'
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <div className="m-4">
+      <ChinesePopulation />
+    </div>
   )
 }
